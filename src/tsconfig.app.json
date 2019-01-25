@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "types": [],
+    "paths":{
+      "@app/*":["app/*"],
+      "@app/core/*":["app/shared/*"],
+      "@app/shared/*":["app/core/*"],
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
