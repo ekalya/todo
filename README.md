@@ -1,6 +1,6 @@
 # todo
 
-This my starter angular todo app with a sole intetion of trying to 
+This is my starter angular todo app with a sole intetion of trying to 
 understand how an angular app should actually be structured with scalling in mind.
 
 I am also using it to try to understand how 
